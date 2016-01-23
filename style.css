@@ -1,0 +1,73 @@
+body {padding: 0px; margin: 0; height: 100%; background-color: #e3e3e3;}
+
+h1{}
+
+
+#wraper {width: 1000px;
+margin: 0px auto;
+border: 1px solid #cccccc;
+min-height: 1000px;
+background-color: white;
+position: relative;
+}
+
+
+
+#selcountry {
+	width: 200px;
+	
+	position: absolute; top: 15px; right: 5px;
+	
+}
+
+#pageheader {color: white; position: absolute; top: 5px; left: 5px; font-size: 30px;}
+
+#serchpanel {
+	
+	position: fixed;
+	background-color: red;
+	height: 57px;
+	width: 100%;
+	top:0px;
+
+z-index: 1000px;
+width: 998px;
+background: url('fase/hgeader-bg.png');
+border: 1px solid #aa0000;
+
+}
+
+#infopanelbase {
+	position: absolute;
+	right:0px;
+	top: 70px;
+	
+	width: 750px;
+
+}
+
+
+#serchresult {
+	padding-top: 70px;
+padding-left: 5px;
+z-index: 900px;
+}
+
+.separator {clear: both;}
+
+#topart a {
+	color: black;
+	
+}
+#topart a:hover {
+	color: green;
+	
+}
+
+#artinfo{
+	position: absolute;
+	
+	overflow: auto;
+	width: 750px;
+	height: 500px;
+}
